@@ -23,26 +23,39 @@ function About() {
 
             <article className='about__card'>
               <BsAward className='about__icon'/>
-              <h5>Experience</h5>
+              <h5>Professional Experience</h5>
               <small>1 Year Working</small>
             </article>
 
             <article className='about__card'>
               <TbCertificate className='about__icon'/>
               <h5>Certifications</h5>
-              <small>10 International Certificates</small>
+              <small>11 International Certificates</small>
             </article>
 
             <article className='about__card'>
               <IoMdArchive className='about__icon'/>
               <h5>Projects</h5>
-              <small>8 Network Engineering Projects</small>
+              <small>2 GameDev Projects</small>
+              <br />
+              <small>2 MobileDev Projects</small>
+              <br />
+              <small>1 UI/UX Project</small>
+              <br />
+              <small>1 Website Project</small>
             </article>
           </div>
           <p>
-            Halo! Perkenalkan namaku M. Adib Aulia Nurkhafif, biasa dipanggil Adib!
-            Aku lulusan dari SMK IDN Bogor, dan sekarang melanjutkan studi di BINUS University dengan jurusan Computer Science!
-            Sekarang aku tinggal di Jln. Kresna No.43, Kel. Arjuna, Kota Bandung
+            Halo! Perkenalkan nama saya M. Adib Aulia Nurkhafif, biasa dipanggil Adib!
+            Saya mahasiswa BINUS semester 5, mendalami UI/UX, Front End dan Mobile Programming.
+            <br />
+            <br />
+            Saya membuat beberapa project selama kuliah yang berkaitan dengan hal yang saya dalami,
+            sekaligus Saya sedang mencari opportunity untuk tempat magang!
+            <br />
+            <br />
+            Sebelum berkuliah saya juga sempat berpengalaman untuk bekerja menjadi Network Engineer selama
+            1 tahun dan mendapat beberapa sertifikasi dibidang tersebut, namun sekarang saya mencoba opportunity baru!
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk!</a>

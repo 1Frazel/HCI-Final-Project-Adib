@@ -9,9 +9,9 @@ function Header() {
     <header>
       <div className="container header__container">
         <h5>Hello I'm</h5>
-        <h1>Adib Aulia</h1>
+        <h1>M. Adib Aulia Nurkhafif</h1>
         <h5 className="text-light">
-          Student from BINUS University | Network Engineer
+          Undergraduate Computer Science BINUS University
         </h5>
         <CTA />
         <HeaderSocials />

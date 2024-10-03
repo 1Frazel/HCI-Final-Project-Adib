@@ -5,8 +5,8 @@ import {BsFillPatchCheckFill} from 'react-icons/bs'
 function Experience() {
   return (
     <section id='experience'>
-      <h5>Skills That I Have</h5>
-      <h2>My Experience</h2>
+      <h5>Things That I Know</h5>
+      <h2>My Skills</h2>
 
       <div className="container experience__container">
         <div className="experience__networking">
@@ -47,30 +47,23 @@ function Experience() {
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
-            <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon'/>
-              <div>
-                <h4>Trend Micro</h4>
-                <small className='text-light'>Basic</small>
-              </div>
-            </article>
           </div>
         </div>
           {/* END OF NETWORKING */}
         <div className="experience__programming">
-          <h3>Software/Web Developer</h3>
+          <h3>Mobile/Front End Developer</h3>
           <div className="experience__content">
             <article className='experience__details'>
               <BsFillPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>C</h4>
-                <small className='text-light'>Experienced</small>
+                <h4>Java</h4>
+                <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsFillPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>Python</h4>
+                <h4>UI/UX Design</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
@@ -85,7 +78,7 @@ function Experience() {
               <BsFillPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>JavaScript</h4>
-                <small className='text-light'>Basic</small>
+                <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className='experience__details'>

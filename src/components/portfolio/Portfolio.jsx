@@ -2,7 +2,6 @@ import React, { useRef, useState } from "react";
 
 
 import './portfolio.css'
-import myPortfolio from '../../assets/B INDO PORTO MUHAMMAD AULIA NURKHAFIF_3.pdf'
 import IMG1 from '../../assets/Project-1.png'
 import IMG2 from '../../assets/Project-2.png'
 import IMG3 from '../../assets/Project-3.png'
@@ -71,8 +70,9 @@ const data = [
 function Portfolio() {
   return (
     <section id='portfolio'>
-      <h5>My Recent Project</h5>
-      <h2>Portfolio</h2>
+      <h5>My Work Experiences</h5>
+      <h2>Professional Experiences</h2>
+      
       <Swiper
         slidesPerView={1}
         spaceBetween={30}
@@ -82,6 +82,7 @@ function Portfolio() {
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
+
         className="container portfolio__container">
           {
           data.map(({image, title, info}, index) => {
@@ -99,13 +100,6 @@ function Portfolio() {
           })
         }
       </Swiper>
-
-      <div className="portfolio__download-desc">
-        <h3>Download My Complete Portfolio!</h3>
-      </div>
-      <div className="portfolio__download">
-        <a href={myPortfolio} className='btn'>My Complete Portfolio</a>
-      </div>
     </section>
   )
 }

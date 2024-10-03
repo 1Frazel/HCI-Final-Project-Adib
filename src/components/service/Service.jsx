@@ -15,34 +15,40 @@ const Service = () => {
                 <div>
                   <h4>Desain dan konfigurasi jaringan menggunakan perangkat Cisco, MikroTik, Fortinet, Ruckus, Ubiquiti, dan lainnya.</h4>
                 </div>
+                <br />
                 <div>
                   <h4>Instalasi dan pemeliharaan perangkat jaringan.</h4>
                 </div>
+                <br />
                 <div>
                   <h4>Peningkatan kinerja jaringan dan keamanan.</h4>
                 </div>
+                <br />
                 <div>
-                  <h4>Penyelesaian masalah jaringan dan pemulihan kesalahan.</h4>
+                  <h4>Penyelesaian masalah jaringan.</h4>
                 </div>
               </article>
             </div>
           </div>
 
           <div className="service__programming">
-            <h3>Programming Service</h3>
+            <h3>Front End/Mobile Dev Service</h3>
             <div className="service__content">
               <article className='service__detail'>
               <div>
-                  <h4>Pengembangan aplikasi atau sistem menggunakan bahasa pemrograman C, Python, HTML, JavaScript, CSS, dan React.</h4>
+                  <h4>Pengembangan desain UI aplikasi dan UX research.</h4>
                 </div>
+                <br />
                 <div>
-                  <h4>Pembuatan website responsif dan menarik.</h4>
+                  <h4>Pembuatan desain Front End Website menggunakan framework.</h4>
                 </div>
+                <br />
                 <div>
-                  <h4>Integrasi sistem dan pengolahan data.</h4>
+                  <h4>Pengembangan aplikasi mobile berbasis android.</h4>
                 </div>
+                <br />
                 <div>
-                  <h4>Pemecahan masalah dan debugging kode.</h4>
+                  <h4>Pengembangan desain game</h4>
                 </div>
               </article>
             </div>
