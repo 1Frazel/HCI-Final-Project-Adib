@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/HCI-Final-Project-Adib/static/css/main.720d93f3.css",
-    "main.js": "/HCI-Final-Project-Adib/static/js/main.792b4903.js",
+    "main.css": "/HCI-Final-Project-Adib/static/css/main.c839cc42.css",
+    "main.js": "/HCI-Final-Project-Adib/static/js/main.4d344bfb.js",
     "static/media/B INDO PORTO MUHAMMAD AULIA NURKHAFIF_3.pdf": "/HCI-Final-Project-Adib/static/media/B INDO PORTO MUHAMMAD AULIA NURKHAFIF_3.22dfc2282cac9920edb8.pdf",
     "static/media/navy-blue-concrete-wall-with-scratches-1.jpg": "/HCI-Final-Project-Adib/static/media/navy-blue-concrete-wall-with-scratches-1.a05c065b63566e17051f.jpg",
     "static/media/HOW TO BASIC MTCNA 100% FIX.pdf": "/HCI-Final-Project-Adib/static/media/HOW TO BASIC MTCNA 100% FIX.ad9b6e8ec0386c025662.pdf",
@@ -29,11 +29,11 @@
     "static/media/Insomnomnomnia.png": "/HCI-Final-Project-Adib/static/media/Insomnomnomnia.74158005c15ad0ba1f1f.png",
     "static/media/Logo-adib.png": "/HCI-Final-Project-Adib/static/media/Logo-adib.f3e553759e09725446d7.png",
     "index.html": "/HCI-Final-Project-Adib/index.html",
-    "main.720d93f3.css.map": "/HCI-Final-Project-Adib/static/css/main.720d93f3.css.map",
-    "main.792b4903.js.map": "/HCI-Final-Project-Adib/static/js/main.792b4903.js.map"
+    "main.c839cc42.css.map": "/HCI-Final-Project-Adib/static/css/main.c839cc42.css.map",
+    "main.4d344bfb.js.map": "/HCI-Final-Project-Adib/static/js/main.4d344bfb.js.map"
   },
   "entrypoints": [
-    "static/css/main.720d93f3.css",
-    "static/js/main.792b4903.js"
+    "static/css/main.c839cc42.css",
+    "static/js/main.4d344bfb.js"
   ]
 }
