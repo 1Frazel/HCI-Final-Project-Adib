@@ -13,19 +13,19 @@ const Service = () => {
             <div className="service__content">
               <article className='service__detail'>
                 <div>
-                  <h4>Desain dan konfigurasi jaringan menggunakan perangkat Cisco, MikroTik, Fortinet, Ruckus, Ubiquiti, dan lainnya.</h4>
+                  <h4>Network design and configuration using Cisco, MikroTik, Fortinet, Ruckus, Ubiquiti, and other devices.</h4>
                 </div>
                 <br />
                 <div>
-                  <h4>Instalasi dan pemeliharaan perangkat jaringan.</h4>
+                  <h4>Installation and maintenance of network devices.</h4>
                 </div>
                 <br />
                 <div>
-                  <h4>Peningkatan kinerja jaringan dan keamanan.</h4>
+                  <h4>Network performance and security improvement.</h4>
                 </div>
                 <br />
                 <div>
-                  <h4>Penyelesaian masalah jaringan.</h4>
+                  <h4>Network troubleshooting.</h4>
                 </div>
               </article>
             </div>
@@ -36,19 +36,19 @@ const Service = () => {
             <div className="service__content">
               <article className='service__detail'>
               <div>
-                  <h4>Pengembangan desain UI aplikasi dan UX research.</h4>
+                  <h4>Development of application UI design and UX research.</h4>
                 </div>
                 <br />
                 <div>
-                  <h4>Pembuatan desain Front End Website menggunakan framework.</h4>
+                  <h4>Front End Website design development using framework.</h4>
                 </div>
                 <br />
                 <div>
-                  <h4>Pengembangan aplikasi mobile berbasis android.</h4>
+                  <h4>Android-based mobile application development.</h4>
                 </div>
                 <br />
                 <div>
-                  <h4>Pengembangan desain game</h4>
+                  <h4>Game design development</h4>
                 </div>
               </article>
             </div>

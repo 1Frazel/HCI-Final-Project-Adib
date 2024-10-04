@@ -21,34 +21,28 @@ const data = [
     {
         title: 'How To Basic: MTCNA',
         buku: buku1,
-        desc: 'Buku yang lengkap menjelaskan semua materi MTCNA, mulai dari akses dasar MikroTik, Dasar Firewall, Dasar Nirkabel hingga hotspot dll. Ada lebih dari 50+ lab MTCNA!',
+        desc: 'A complete book explaining all MTCNA material, from MikroTik basic access, Firewall Basics, Wireless Basics to hotspots etc. There are more than 50+ MTCNA labs!',
     },
     {
         title: 'How To Basic: MTCRE',
         buku: buku2,
-        desc: 'Buku yang lengkap menjelaskan semua materi MTCRE, mulai dari konsep perutean, lalu perutean statis, perutean dinamis hingga tunnel dll. Ada lebih dari 35+ Lab MTCRE!'
-    },
+        desc: 'A complete book explaining all MTCRE material, starting from routing concepts, then static routing, dynamic routing to tunnels etc. There are more than 35+ MTCRE Labs!'    },
     {
         title: 'How To Basic: CCNA Enterprise',
         buku: buku3,
-        desc: 'Buku yang lengkap menjelaskan tentang semua materi CCNA Enterprise, CCNA versi terbaru, mulai dari switching, lalu routing dan juga ada IPv6 basic, dan lain-lain. Ada lebih dari 50+ CCNA Enterprise Labs!', 
-    },
+        desc: 'A complete book explaining all the CCNA Enterprise material, the latest version of CCNA, starting from switching, then routing and also there is IPv6 basic, and others. There are more than 50+ CCNA Enterprise Labs!',     },
     {
         title: 'Forbidden Redhats',
         buku: buku4,
-        desc: 'Buku yang membahas mengenai server Redhat, mulai dari instalasi server, hingga menambahkan beberapa service yang tersedia pada server Redhat, semua dibahas disini!',
-
-    },
+        desc: 'A book that discusses the Redhat server, from installing the server, to adding some of the services available on the Redhat server, all covered here!',    },
     {
         title: 'Network Fundamental Modul',
         buku: buku5,
-        desc: 'Modul ini membahas mengenai fundametal dari jaringan, seperti penjelasan jaringan itu apa, bagaimana sejarah dan asal-usulnya, serta banyak membahas istilah-istilah yang ada didalam dunia jaringan'
-    },
+        desc: 'This module discusses the fundamentals of networks, such as explaining what networks are, how their history and origins are, and discussing many terms in the network world'    },
     {
         title: 'Subnetting Modul',
         buku: buku6,
-        desc: 'Modul ini membahas topik penting dalam dunia jaringan yakni Subnetting, mengenai penjelasannya, cara menghitung beserta teknik paling efektifnya'
-    }
+        desc: 'This module discusses an important topic in the world of networking, namely Subnetting, regarding its explanation, how to calculate and the most effective techniques'    }
 ]
 
 function creation()  {
@@ -56,6 +50,10 @@ function creation()  {
       <section id='creation'>
         <h5>What I've Wrote</h5>
         <h2>Creations</h2>
+
+        <div className='container creation__introduction'>
+          <h3>This section is about all the books I wrote based back when I still study on Vocational High School</h3>
+        </div>
         
         <Swiper 
         slidesPerView={1}

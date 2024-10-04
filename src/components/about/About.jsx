@@ -46,18 +46,15 @@ function About() {
             </article>
           </div>
           <p>
-            Halo! Perkenalkan nama saya M. Adib Aulia Nurkhafif, biasa dipanggil Adib!
-            Saya mahasiswa BINUS semester 5, mendalami UI/UX, Front End dan Mobile Programming.
+            Hello! Introducing my name is M. Adib Aulia Nurkhafif, usually called Adib! 
+            I'm a 5th semester BINUS student, studying UI/UX, Front End and Mobile Programming.
             <br />
             <br />
-            Saya membuat beberapa project selama kuliah yang berkaitan dengan hal yang saya dalami,
-            sekaligus Saya sedang mencari opportunity untuk tempat magang!
+            I made several projects during college that are related to the things I study, at the same time I am looking for an opportunity for an internship!
             <br />
             <br />
-            Sebelum berkuliah saya juga sempat berpengalaman untuk bekerja menjadi Network Engineer selama
-            1 tahun dan mendapat beberapa sertifikasi dibidang tersebut, namun sekarang saya mencoba opportunity baru!
+            Before studying, I also had experience working as a Network Engineer for 1 year and got several certifications in that field, but now I'm trying new opportunities!
           </p>
-
           <a href="#contact" className='btn btn-primary'>Let's Talk!</a>
         </div>
       </div>

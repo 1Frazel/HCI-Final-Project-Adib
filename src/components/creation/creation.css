@@ -6,6 +6,14 @@
     justify-content: center;
 }
 
+.container.creation__introduction {
+    margin-bottom: 2rem;
+}
+
+.container.creation__introduction > h3 {
+    text-align: center;
+}
+
 .container.creation__container {
     justify-content: center;
     align-items: center;

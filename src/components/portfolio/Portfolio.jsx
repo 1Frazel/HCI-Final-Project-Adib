@@ -23,47 +23,46 @@ const data = [
   {
     image: IMG1,
     title: 'Replacement Firewall Palo Alto PT. Mega Eltra',
-    info: 'Project pertama saya adalah replacement firewall, dimana saya dan atasan saya terjun ke PT. Mega Eltra Pupuk Indonesia didaerah Jatiwaringin Jakarta Timur, untuk instalasi sekaligus replacement perangkat. Perangkat yang akan di replace adalah firewall Palo Alto 3200 series. Pekerjaan saya pada saat project adalah melakukan konfigurasi pada perangkat Mikrotik agar terintegrasi dengan perangkat firewall Palo Alto yang baru saja kita instalasi. Konfigurasi yang saya lakukan adalah integrasi pada IP Address, lalu melakukan pemetaan VLAN agar Palo Alto bisa terintegrasi pada semua switch diseluruh lantai serta menstabilkan jalur VPN.'
-  },
+    info: 'My first project was a firewall replacement, where my senior and I went to PT Mega Eltra Pupuk Indonesia in the Jatiwaringin area, East Jakarta, for installation and replacement of devices. The device to be replaced is the Palo Alto 3200 series firewall. My job during the project was to configure the Mikrotik device to be integrated with the Palo Alto firewall device that we had just installed. The configuration I did was integration of IP Addresses, then mapping VLANs so that Palo Alto could be integrated on all switches throughout the floor and stabilizing the VPN line.'  },
   {
     image: IMG2,
-    title: 'Instalasi AP Dan Survey Fiber Optic PT. ASDP Merak',
-    info: 'Project kedua saya berada didaerah Pelabuhan Merak di Cilegon. Kali ini saya akan melakukan instalasi Ruckus Wireless Zoneflex R320 dikapal ferry yang melintas ke Lampung di Dermaga Ekslusif Merak. Jadi saya dan atasan saya ikut naik kekapal ferry sambil melakukan instalasi perangkat jaringan, setelah selesai di sore hari karena kita harus mengikuti perjalanan pulang pergi Merak-Lampung, malamnya kita ke kantor PT. ASDP Indonesia Ferry untuk melakukan pemetaan topologi dan survey Fiber Optik by remote hingga larut malam, dan dilanjut menginap di hotel. Kemudian esok paginya, kita melanjutkan survey Fiber Optik dengan langsung turun kelapangan, hingga sore hari. Setelah selesai kami pulang ke Jakarta.'
-  },
+    title: 'Access Point Installation and Fiber Optic Survey PT. ASDP Merak',
+    info: 'My second project is in the Merak Port area in Cilegon. This time I was going to install the Ruckus Wireless Zoneflex R320 on a ferry traveling to Lampung at the Merak Exclusive Pier. So my boss and I went up to the ferry while installing network devices, after finishing in the afternoon because we had to follow the Merak-Lampung round trip, that night we went to the PT ASDP Indonesia Ferry office to do topology mapping and Fiber Optic surveys by remote until late at night, and continued to stay at the hotel. Then the next morning, we continued the Fiber Optic survey by going directly to the field, until the afternoon. After completion, we returned to Jakarta.'  },
   {
     image: IMG3,
-    title: 'Upgrade Instalasi Switch Ruckus PT. ASDP Bitung',
-    info: 'Project ketiga saya dilakukan by remote, saya diberi arahan oleh atasan saya untuk melakukan upgrade pada perangkat Ruckus ICX Series yang akan dikirim ke Bitung, konfigurasi yang saya lakukan yaitu melakukan upgrade pada firmware, serta melakukan konfigurasi VLAN sesuai arahan yang diberikan, saya melakukan konfigurasi ini pada 8 perangkat yang sama, setelah selesai konfigurasi perangkat dibungkus kembali sebelum akan dikirim ketujuan.'
-  },
+    title: 'Installation Upgrade Switch Ruckus PT. ASDP Bitung',
+    info: 'My third project was done by remote, I was given directions by my boss to upgrade the Ruckus ICX Series devices that would be sent to Bitung, the configuration I did was to upgrade the firmware, and configure the VLAN according to the directions given, I did this configuration on the same 8 devices, after completing the configuration the devices were wrapped again before being sent to their destination.'  },
   {
     image: IMG4,
-    title: 'Upgrade Instalasi Switch Ruckus & MikroTik CCR PT. Rajawali Nusindo',
-    info: 'Project keempat saya dilakukan by remote, saya diberi tugas oleh atasan saya untuk melakukan upgrade pada perangkat Ruckus ICX Series dan Mikrotik CCR, konfigurasi yang saya lakukan hanya melakukan upgrade pada firmware, serta melakukan konfigurasi VLAN sesuai arahan yang diberikan, saya melakukan konfigurasi ini pada 6 perangkat yang sama. setelah selesai konfigurasi perangkat dibungkus kembali sebelum akan dikirim ketujuan.'
-  },
+    title: 'Installation Upgrade Switch Ruckus and MikroTik CCR PT. Rajawali Nusindo',
+    info: 'My fourth project was done by remote, I was assigned by my boss to upgrade the Ruckus ICX Series and Mikrotik CCR devices, the configuration I did was only upgrading the firmware, and configuring the VLAN according to the directions given, I did this configuration on the same 6 devices. after completing the configuration, the device was wrapped again before being sent to its destination.'  },
   {
     image: IMG5,
-    title: 'Upgrade Instalasi Switch & AP Ruckus DPR RI',
-    info: 'Project kelima saya terbagi menjadi 2 tahap. Pertama-tama saya dan atasan saya melakukan upgrade dan konfigurasi VLAN pada perangkat Ruckus ICX series sebelum akhirnya dikirim ke DPR RI untuk dilakukan instalasi. Kedua, setelah selesai melakukan upgrade, kami kemudian melakukan instalasi dengan terjun langsung ke DPR RI. Setelah briefing dengan pihak IT DPR, kami melakukan replacement perangkat Juniper dengan Perangkat Ruckus ICX dibeberapa data box yang tersebar digedung DPR, dan setelah itu, kami juga melakkan instalasi Ruckus Wireless Zoneflex diberbagai departemen pada digedung DPR.'
-  },
+    title: 'Installation Upgrade Switch and Access Point Ruckus DPR RI',
+    info: 'My fifth project was divided into 2 stages. First, my supervisor and I upgraded and configured VLANs on Ruckus ICX series devices before sending them to DPR RI for installation. Secondly, after completing the upgrade, we then carried out the installation by going directly to DPR RI. After a briefing with DPR IT, we replaced Juniper devices with Ruckus ICX devices in several data boxes scattered in the DPR building, and after that, we also installed Ruckus Wireless Zoneflex in various departments in the DPR building.'  },
   {
     image: IMG6,
-    title: 'Preventive Maintenance Switch Ruckus & Avaya Kemenhub RI',
-    info: 'Project keenam saya hanya melakukan maintenance pada perangkat jaringan di Kementrian Perhubungan RI, disana saya mengecek kondisi perangkat di Kementrian, ada switch Ruckus dan switch Avaya, saya cek kondisi fisik router, seperti suhu, lampu LED. Kemudian mengecek konfigurasi apakah ada yang berubah atau kurang, lalu memastikan perangkat tetap terintegrasi, dan kemudian testing pada end-user untuk memastikan tidak ada kendala.'
-  },
+    title: 'Preventive Maintenance Switch Ruckus and Avaya Kemenhub RI',
+    info: 'The sixth project I only did maintenance on network devices at the Indonesian Ministry of Transportation, there I checked the condition of the devices at the Ministry, there were Ruckus switches and Avaya switches, I checked the physical condition of the router, such as temperature, LED lights. Then check the configuration if there is anything changed or missing, then make sure the device remains integrated, and then testing on end-users to ensure there are no problems.'  },
   {
     image: IMG7,
     title: 'SD-WAN Alfamart',
-    info:  'SD-WAN Alfa merupakan megaproject yang sedang digarap oleh perusahaan MTM saat saya magang disana, karena pada project ini, MTM melakukan kolaborasi dengan ICON+ pada segi infrastruktur MPLS. Dan pada megaproject ini, kita melakukan instalasi pada 3000+ store Alfamart dan ratusan store Alfamidi di seluruh penjuru Indonesia. Saat project, saya mengerjakan 3 hal: Pre-Config: Melakukan fresh configuration pada produk Fortigate sesuai dengan ketentuan, seperti konfigurasi MPLS, GSM, dll. Sebelum akhirnya perangkat dikirim ke store Alfa dipenjuru Indonesia Remote Instalasi: Setelah akhirnya perangkat tersebut sampai, kita akan melakukan remote instalasi dengan Tim Onsite ICON+, agar perangkat Fortigate tersebut bisa terhubung ke Server Alfa, dan SD-WAN dapat berjalan dengan lancar Optimasi: Optimasi hanya dilakukan jika terjadi kendala/problem pada SD-WAN, agar SD-WAN bisa berjalan dengan lancar kembali. '
-  },
+    info: 'SD-WAN Alfa is a megaproject that was being worked on by the MTM company when I interned there, because in this project, MTM collaborated with ICON + in terms of MPLS infrastructure. And in this megaproject, we installed 3000+ Alfamart stores and hundreds of Alfamidi stores throughout Indonesia. During the project, I worked on 3 things: Pre-Config: Perform fresh configuration on Fortigate products in accordance with the provisions, such as MPLS configuration, GSM, etc. Before finally the device is sent to Alfa stores throughout Indonesia Remote Installation: After the device finally arrives, we will do a remote installation with the ICON + Onsite Team, so that the Fortigate device can be connected to the Alfa Server, and SD-WAN can run smoothly Optimization: Optimization is only done if there are problems with SD-WAN, so that SD-WAN can run smoothly again. '  },
   {
     image: IMG8,
     title: 'Implementasi Security Branch BRI',
-    info: <p> Project kali ini merupakan implementasi dalam meningkatkan keamanan jaringan pada kantor BRI.
-          BRI sendiri memiliki 3 jenis kantor ada KCP (Kantor Cabang Pembantu) ditingkat paling bawah, lalu ada KC (Kantor Cabang) ditingkat menengah, dan ada KK (Kantor Kanwil) yang merupakan pusat jaringan BRI didaerah tersebut. Dan pada projek kali ini, saya dan team ditugaskan untuk melakukan instalasi Fortigate pada beberapa kantor KCP dan KC yang tersebar didaerah jabodetabek dan Banten, dan sementara saya mendapat jatah untuk melakukan instalasi di 9 KCP, dan 1 KC.
-          Pada projek kali ini saya melakukan 3 hal saat instalasi: 
-          1. Saat pertama kali tiba di site, yang yang saya lakukan adalah survey topologi kantor BRI tersebut. Jaringan BRI terdapat 2 macam, Intranet dan Internet, dan kita harus mengetahui secara detail topologi dari kedua jaringan tersebut. 
-          2. Start Instalasi Intranet/Internet Setelah selesai melakukan survey dan menganalisa topologi, barulah kita mulai start untuk menambahkan perangkat Fortigate ke jaringan yang nantinya Fortigate ini akan menjadi firewall jaringan Intranet dan Internet kantor tersebut. 
-          3. Dokumentasi selesai melakukan instalasi,saya cek kembali semua fasilitas, sistem, dan aplikasi BRI, serta internet disana, apakah sudah bisa digunakan kembali dan traffic sudah melewati Fortigate, jika sudah maka implementasi sudah berhasil.'</p> 
+    info: <p> This project is an implementation in improving network security at BRI offices.
+          <br />
+          BRI itself has 3 types of offices, there are KCP (Branch Office) at the lowest level, then there is KC (Branch Office) at the middle level, and there is KK (Regional Office) which is the center of the BRI network in the area. And in this project, my team and I were assigned to install Fortigate in several KCP and KC offices spread across Jabodetabek and Banten, and while I got an allotment to install in 9 KCP, and 1 KC.
+          <br />
+          <br />
+          In this project, I did 3 things during the installation:  
+          <br />
+          1. When I first arrived at the site, what I did was survey the topology of the BRI office. There are 2 types of BRI networks, Intranet and Internet, and we must know in detail the topology of the two networks. 
+          <br />
+          2. Start Intranet / Internet Installation After completing the survey and analyzing the topology, then we start to start adding Fortigate devices to the network, which will later become the office's Intranet and Internet network firewall. 
+          <br />
+          3. Documentation after completing the installation, I check all BRI facilities, systems, and applications, as well as the internet there, whether they can be used again and the traffic has passed through Fortigate, if so then the implementation has been successful.'</p> 
   },
 ]
 
