@@ -11,7 +11,7 @@ function Header() {
         <h5>Hello I'm</h5>
         <h1>M. Adib Aulia Nurkhafif</h1>
         <h5 className="text-light">
-          Undergraduate Computer Science BINUS University
+          Junior Front-End Developer & UI/UX Designer
         </h5>
         <CTA />
         <HeaderSocials />

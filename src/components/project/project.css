@@ -46,6 +46,7 @@
     color: var(--color-light);
     font-weight: 300;
     display: block;
+    margin-bottom: 2rem;
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {

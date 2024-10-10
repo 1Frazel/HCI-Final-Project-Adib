@@ -1,16 +1,45 @@
 import React, { useRef } from 'react';
-import './contact.css'
-import {MdEmail} from 'react-icons/md'
-import {BsLine} from 'react-icons/bs'
-import {IoLogoWhatsapp} from 'react-icons/io'
+import './contact.css';
+import { MdEmail } from 'react-icons/md';
+import { BsLine } from 'react-icons/bs';
+import { IoLogoWhatsapp } from 'react-icons/io';
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_98zvy3y', 'template_83t6kxr', form.current, 'qkYHUAd9cmK7BjIFb');
+
+    emailjs.sendForm('service_1jjdsvk', 'template_83t6kxr', form.current, 'qkYHUAd9cmK7BjIFb')
+      .then((result) => {
+        console.log(result.text);
+        // Show success toast notification
+        toast.success('Message sent successfully!', {
+          position: "top-center",
+          autoClose: 3000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+        });
+      }, (error) => {
+        console.log(error.text);
+        // Show failure toast notification
+        toast.error('Failed to send the message. Please try again.', {
+          position: "top-center",
+          autoClose: 3000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+        });
+      });
+
     e.target.reset();
   };
 
@@ -43,7 +72,6 @@ export const Contact = () => {
           </article>
         </div>
 
-        {/* END OF CONTACT OPTION  */}
         <form ref={form} onSubmit={sendEmail}>
           <label>Name</label>
           <input type="text" name='name' placeholder='Your Full Name' required/>
@@ -53,9 +81,12 @@ export const Contact = () => {
           <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
           <button type="submit" value="Send" className='btn btn-primary'>Send Message</button>
         </form>
+
+        {/* Toast container to display the notifications */}
+        <ToastContainer />
       </div>
     </section>
-  )
+  );
 }
 
-export default Contact
+export default Contact;

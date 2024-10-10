@@ -15,14 +15,14 @@ function Certificates () {
                         <article className='certificates__detail'>
                         <FaDotCircle className='certificates__detail-icon'/>
                         <div>
-                            <h4>IT Support Google </h4>
+                            <h4>IT Support Google</h4>
                             <small>Lifetime</small>
                         </div>
                         </article>
                         <article className='certificates__detail'>
                         <FaDotCircle className='certificates__detail-icon'/>
                         <div>
-                            <h4>Ubiquiti Broadband Wireless Admin (UBWA) </h4>
+                            <h4>Ubiquiti Broadband Wireless Admin (UBWA)</h4>
                             <small>2022-2024</small>
                         </div>
                         </article>

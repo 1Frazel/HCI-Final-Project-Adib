@@ -84,12 +84,6 @@ function creation()  {
             })
           }
         </Swiper>
-        <div className="portfolio__download-desc">
-        <h3>Download My Complete Portfolio!</h3>
-      </div>
-      <div className="portfolio__download">
-        <a href={myPortfolio} className='btn'>My Complete Portfolio</a>
-      </div>
       </section>
       
     )

@@ -1,14 +1,14 @@
-import React from 'react'
-import './project.css'
+import React from 'react';
+import './project.css';
 
-import IMG1 from '../../assets/Web Portfolio.png'
-import IMG2 from '../../assets/Insomnomnomnia.png'
-import IMG3 from '../../assets/Dark Whisperer.png'
-import IMG4 from '../../assets/Kompas Re-Design.png'
-import IMG5 from '../../assets/RAISO.png'
-import IMG6 from '../../assets/Recipeez.png'
+import IMG1 from '../../assets/Web Portfolio.png';
+import IMG2 from '../../assets/Insomnomnomnia.png';
+import IMG3 from '../../assets/Dark Whisperer.png';
+import IMG4 from '../../assets/Kompas Re-Design.png';
+import IMG5 from '../../assets/RAISO.png';
+import IMG6 from '../../assets/Recipeez.png';
 
-import { Navigation, Pagination} from 'swiper';
+import { Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
@@ -20,13 +20,14 @@ const data = [
     image: IMG1,
     title: 'Web Portfolio',
     skills: 'Skills used: HTML, CSS, ReactJS',
-    desc: 'A personal portfolio website designed to showcase my development projects, skills, and experiences. Built using modern web technologies like ReactJS for a seamless user experience, it features responsive design and interactive elements to enhance engagement. ' 
+    desc: 'A personal portfolio website designed to showcase my development projects, skills, and experiences. Built using modern web technologies like ReactJS for a seamless user experience, it features responsive design and interactive elements to enhance engagement.' 
   },
   {
     image: IMG2,
     title: 'Insomnomnomniac',
     skills: 'Skills used: HTML, JavaScript',
-    desc: 'A 2D platformer web-based game that challenges player to escape from the labyrinth, dodge the monster and finish the game by reaching bed at the end of labyrinth. This project focuses on interactive gameplay and logic handling using vanilla JavaScript, providing an engaging user experience.' 
+    desc: 'A 2D platformer web-based game that challenges player to escape from the labyrinth, dodge the monster and finish the game by reaching bed at the end of labyrinth. This project focuses on interactive gameplay and logic handling using vanilla JavaScript, providing an engaging user experience.',
+    button: <a href="https://1frazel.github.io/MPF-Final-Game/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Try the game!</a>
   },
   {
     image: IMG3,
@@ -38,7 +39,7 @@ const data = [
     image: IMG4,
     title: 'Kompas Re-Design',
     skills: 'Skills used: UI/UX Design',
-    desc: 'A redesign of the Kompas news website to enhance user experience and accessibility. The project focused on improving navigation, readability, and aesthetics while maintaining the brands visual identity.' 
+    desc: 'A redesign of the Kompas news website to enhance user experience and accessibility. The project focused on improving navigation, readability, and aesthetics while maintaining the brands visual identity.'
   },
   {
     image: IMG5,
@@ -50,46 +51,46 @@ const data = [
     image: IMG6,
     title: 'Recipeez',
     skills: 'Skills used: Java, UI/UX Design',
-    desc: ' A meal planning and recipe-finding app that allows users to input available ingredients and generate recipe suggestions. The app integrates a user-friendly interface with essential Java features to provide an educational experience in real-world API usage. ' 
+    desc: 'A meal planning and recipe-finding app that allows users to input available ingredients and generate recipe suggestions. The app integrates a user-friendly interface with essential Java features to provide an educational experience in real-world API usage.' 
   }
-]
+];
 
-
-function Project()  {
-    return (
-      <section id='project'>
-        <h5>What I've Done</h5>
-        <h2>Projects</h2>
-        
-        <Swiper 
+function Project() {
+  return (
+    <section id='project'>
+      <h5>What I've Done</h5>
+      <h2>Projects</h2>
+      
+      <Swiper 
         slidesPerView={1}
         spaceBetween={30}
         loop={true}
         pagination={{
-          clickable:true
+          clickable: true
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
         className="container project__container">
-          {
-            data.map(({image, title, skills, desc}, index) => {
-              return(
-                <SwiperSlide key={index} className='project__item'>
-                  <div className='project__item-image'>
-                    <img src={image} alt="" />
-                  </div>
-                  <div className='project__detail'>
-                    <h3 className='project__detail-title'>{title}</h3>
-                    <h5 className='project__detail-skills'>{skills}</h5>
-                    <p className='project__detail-desc'>{desc}</p>
-                  </div>
-                </SwiperSlide>
-              )
-            })
-          }
-        </Swiper>
-      </section>
-      
-    )
-  }
-  export default Project
+        {
+          data.map(({ image, title, skills, desc, button }, index) => {
+            return (
+              <SwiperSlide key={index} className='project__item'>
+                <div className='project__item-image'>
+                  <img src={image} alt={title} />
+                </div>
+                <div className='project__detail'>
+                  <h3 className='project__detail-title'>{title}</h3>
+                  <h5 className='project__detail-skills'>{skills}</h5>
+                  <p className='project__detail-desc'>{desc}</p>
+                  {button && <div className='project__detail-btn'>{button}</div>}
+                </div>
+              </SwiperSlide>
+            );
+          })
+        }
+      </Swiper>
+    </section>
+  );
+}
+
+export default Project;

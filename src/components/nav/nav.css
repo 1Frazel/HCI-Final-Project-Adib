@@ -31,3 +31,16 @@ nav a.active {
     background: var(--color-primary);
     color: var(--color-bg);
 }
+
+/* =====================    MEDIA QUERIES (SMALL DEVICES) =================*/
+@media screen and (max-width: 600px) {
+    nav {
+        padding: 0.5rem 1rem; /* Reduce padding */
+        gap: 0.5rem; /* Reduce gap between icons */
+    }
+
+    nav a {
+        padding: 0.6rem; /* Reduce padding of icons */
+        font-size: 0.9rem; /* Reduce font size */
+    }
+}
