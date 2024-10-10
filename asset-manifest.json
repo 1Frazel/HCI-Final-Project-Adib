@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/HCI-Final-Project-Adib/static/css/main.8150f0b4.css",
+    "main.css": "/HCI-Final-Project-Adib/static/css/main.55f2b9a1.css",
     "main.js": "/HCI-Final-Project-Adib/static/js/main.5e513a0f.js",
     "static/media/B INDO PORTO MUHAMMAD AULIA NURKHAFIF_3.pdf": "/HCI-Final-Project-Adib/static/media/B INDO PORTO MUHAMMAD AULIA NURKHAFIF_3.22dfc2282cac9920edb8.pdf",
-    "static/media/navy-blue-concrete-wall-with-scratches-1.jpg": "/HCI-Final-Project-Adib/static/media/navy-blue-concrete-wall-with-scratches-1.a05c065b63566e17051f.jpg",
     "static/media/HOW TO BASIC MTCNA 100% FIX.pdf": "/HCI-Final-Project-Adib/static/media/HOW TO BASIC MTCNA 100% FIX.ad9b6e8ec0386c025662.pdf",
     "static/media/HOW TO BASIC-MTCRE 100_ FIX.pdf": "/HCI-Final-Project-Adib/static/media/HOW TO BASIC-MTCRE 100_ FIX.e539a8a031337ddc1b5c.pdf",
     "static/media/HOW TO BASIC CCNA ENTERPRISE.pdf": "/HCI-Final-Project-Adib/static/media/HOW TO BASIC CCNA ENTERPRISE.0b630c5fab4aee191115.pdf",
@@ -12,6 +11,7 @@
     "static/media/NETWORK FUNDAMENTAL E-MODUL.pdf": "/HCI-Final-Project-Adib/static/media/NETWORK FUNDAMENTAL E-MODUL.a0ae61fddbe61134c13d.pdf",
     "static/media/Project-3.png": "/HCI-Final-Project-Adib/static/media/Project-3.fa1d1c0f1c9e34abbf10.png",
     "static/media/Project-7.png": "/HCI-Final-Project-Adib/static/media/Project-7.20076f7367c8aab644ee.png",
+    "static/media/navy-blue-concrete-wall-with-scratches-1.jpg": "/HCI-Final-Project-Adib/static/media/navy-blue-concrete-wall-with-scratches-1.04996c31cd8b42b3609d.jpg",
     "static/media/Project-2.png": "/HCI-Final-Project-Adib/static/media/Project-2.b2c2613dd2ca943d8318.png",
     "static/media/Project-6.png": "/HCI-Final-Project-Adib/static/media/Project-6.364e2e96865ab5078b0e.png",
     "static/media/Project-8.png": "/HCI-Final-Project-Adib/static/media/Project-8.72a2f4389eef7a3ad6e9.png",
@@ -29,11 +29,11 @@
     "static/media/CV M ADIB AULIA NURKHAFIF 10-2024.pdf": "/HCI-Final-Project-Adib/static/media/CV M ADIB AULIA NURKHAFIF 10-2024.fcc1b4572e007d9b77da.pdf",
     "static/media/Logo-adib.png": "/HCI-Final-Project-Adib/static/media/Logo-adib.f3e553759e09725446d7.png",
     "index.html": "/HCI-Final-Project-Adib/index.html",
-    "main.8150f0b4.css.map": "/HCI-Final-Project-Adib/static/css/main.8150f0b4.css.map",
+    "main.55f2b9a1.css.map": "/HCI-Final-Project-Adib/static/css/main.55f2b9a1.css.map",
     "main.5e513a0f.js.map": "/HCI-Final-Project-Adib/static/js/main.5e513a0f.js.map"
   },
   "entrypoints": [
-    "static/css/main.8150f0b4.css",
+    "static/css/main.55f2b9a1.css",
     "static/js/main.5e513a0f.js"
   ]
 }
