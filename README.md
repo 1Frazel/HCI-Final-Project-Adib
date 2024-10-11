@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+Here’s a professional script you can use for the `README.md` of your portfolio website:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+# M. Adib Aulia Nurkhafif - Portfolio Website
 
-In the project directory, you can run:
+Welcome to my personal portfolio website! This project showcases my skills, experiences, and projects as a **Front-End Developer**, **UI/UX Enthusiast**, and **Mobile Developer**. Designed with a focus on clean, modern aesthetics and user experience, this site serves as both a professional presentation of my work and a demonstration of the skills I’ve acquired during my academic and professional journey.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Responsive Design**: The website is fully responsive, ensuring optimal viewing experience across all device sizes and screen resolutions.
+- **Project Showcases**: Each project includes detailed descriptions, technologies used, and links to live demos or GitHub repositories where applicable.
+- **Downloadable Resume**: Visitors can download my latest CV directly from the website.
+- **Contact Form**: Easily get in touch with me through a fully functional contact form powered by EmailJS.
+- **Social Media Integration**: Links to my professional social media profiles, including LinkedIn, GitHub, Instagram, and more.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+- **HTML5** & **CSS3**: For structure and styling.
+- **React.js**: Built with the popular React JavaScript library for fast and interactive UI rendering.
+- **JavaScript (ES6+)**: To add dynamic functionality.
+- **EmailJS**: To handle form submissions and send emails directly from the site.
+- **GitHub Pages**: Hosting the website and making it publicly accessible.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Projects Highlighted
 
-### `npm run build`
+- **Web Portfolio**: This site itself, showcasing my proficiency in front-end web development and design.
+- **Insomnomnomniac**: A game development project demonstrating creativity and problem-solving in interactive design.
+- **Dark Whisperer**: A UI/UX design project with a focus on user-centered design principles.
+- **Recipeez**: A mobile development project that showcases the integration of real-world APIs and responsive app design.
+- **Kompas Re-Design**: A comprehensive redesign of a popular news website to improve its usability and aesthetics.
+- **RAISO Android App**: A mobile application development project that highlights my Android development skills.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How to Use
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To explore the code behind this portfolio:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/1Frazel/portfolio-website.git
+   ```
 
-### `npm run eject`
+2. Navigate to the project directory:
+   ```bash
+   cd portfolio-website
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Start the development server:
+   ```bash
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. Open the website in your browser at `http://localhost:3000`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contact
 
-## Learn More
+Feel free to reach out to me via my social media profiles or through the contact form on my website:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **LinkedIn**: [M. Adib Aulia Nurkhafif](https://www.linkedin.com/in/m-adib-aulia-nurkhafif)
+- **GitHub**: [1Frazel](https://github.com/1Frazel)
+- **Instagram**: [@adib_nk](https://instagram.com/adib_nk?igshid=MmIzYWVlNDQ5Yg==)
+- **Facebook**: [Adib NK](https://www.facebook.com/AdibNK11/)
