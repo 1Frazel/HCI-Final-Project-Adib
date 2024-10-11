@@ -15,7 +15,7 @@ Open my portfolio websites here!
 
 ## Tech Stack
 
-- **HTML5** & **CSS3**: For structure and styling.
+- **HTML** & **CSS**: For structure and styling.
 - **React.js**: Built with the popular React JavaScript library for fast and interactive UI rendering.
 - **JavaScript (ES6+)**: To add dynamic functionality.
 - **EmailJS**: To handle form submissions and send emails directly from the site.
