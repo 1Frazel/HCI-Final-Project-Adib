@@ -6,6 +6,9 @@ Here’s a professional script you can use for the `README.md` of your portfolio
 
 Welcome to my personal portfolio website! This project showcases my skills, experiences, and projects as a **Front-End Developer**, **UI/UX Enthusiast**, and **Mobile Developer**. Designed with a focus on clean, modern aesthetics and user experience, this site serves as both a professional presentation of my work and a demonstration of the skills I’ve acquired during my academic and professional journey.
 
+Open my portfolio websites here!
+[M. Adib Aulia Nurkhafif - Web Portfolio](https://1frazel.github.io/HCI-Final-Project-Adib)
+
 ## Features
 
 - **Responsive Design**: The website is fully responsive, ensuring optimal viewing experience across all device sizes and screen resolutions.
