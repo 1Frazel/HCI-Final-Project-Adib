@@ -4,6 +4,10 @@ import ME from '../../assets/IMG_PP-edit-bg.png'
 import {BsAward} from 'react-icons/bs'
 import {TbCertificate} from 'react-icons/tb'
 import {IoMdArchive} from 'react-icons/io'
+import {BsLinkedin} from 'react-icons/bs'
+import {BsInstagram} from 'react-icons/bs'
+import {BsFacebook} from 'react-icons/bs'
+import { FaGithub } from "react-icons/fa";
 
 function About() {
   return (
@@ -24,25 +28,25 @@ function About() {
             <article className='about__card'>
               <BsAward className='about__icon'/>
               <h5>Professional Experience</h5>
-              <small>1 Year Working</small>
+              <h4>1 Year Working</h4>
             </article>
 
             <article className='about__card'>
               <TbCertificate className='about__icon'/>
               <h5>Certifications</h5>
-              <small>11 International Certificates</small>
+              <h4>11 International Certificates</h4>
             </article>
 
             <article className='about__card'>
               <IoMdArchive className='about__icon'/>
               <h5>Projects</h5>
-              <small>2 GameDev Projects</small>
+              <h4>2 GameDev Projects</h4>
               <br />
-              <small>2 MobileDev Projects</small>
+              <h4>2 MobileDev Projects</h4>
               <br />
-              <small>1 UI/UX Project</small>
+              <h4>1 UI/UX Project</h4>
               <br />
-              <small>1 Website Project</small>
+              <h4>1 Website Project</h4>
             </article>
           </div>
           <p>
@@ -55,7 +59,15 @@ function About() {
             <br />
             Before studying, I also had experience working as a Network Engineer for 1 year and got several certifications in that field, but now I'm trying new opportunities!
           </p>
-          <a href="#contact" className='btn btn-primary'>Let's Talk!</a>
+          <div className='about__social-media'>
+            <h3>Checkout My Social Media!</h3>
+            <div className='about__social-media-icons'>
+              <a href="https://www.linkedin.com/in/m-adib-aulia-nurkhafif" className='btn' target='_blank'><BsLinkedin/><h4>Linked In</h4></a>
+              <a href="https://instagram.com/adib_nk?igshid=MmIzYWVlNDQ5Yg=="className='btn' target='_blank'><BsInstagram/><h4>Instagram</h4></a>
+              <a href="https://www.facebook.com/AdibNK11/"className='btn' target='_blank'><BsFacebook/><h4>Facebook</h4></a>
+              <a href="https://github.com/1Frazel"className='btn' target='_blank'><FaGithub/><h4>Github</h4></a>
+            </div>
+          </div>
         </div>
       </div>
     </section>

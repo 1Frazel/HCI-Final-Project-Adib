@@ -51,7 +51,7 @@ function Experience() {
         </div>
           {/* END OF NETWORKING */}
         <div className="experience__programming">
-          <h3>Mobile/Front End Developer</h3>
+          <h3>Mobile & Front End Developer</h3>
           <div className="experience__content">
             <article className='experience__details'>
               <BsFillPatchCheckFill className='experience__details-icon'/>
@@ -92,6 +92,13 @@ function Experience() {
               <BsFillPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>React</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsFillPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Game Design</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>

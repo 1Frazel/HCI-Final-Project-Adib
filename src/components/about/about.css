@@ -67,6 +67,40 @@
     color: var(--color-light);
 }
 
+.about__social-media h3{
+    margin-bottom: 1rem;
+}
+
+/* Add gap between social media buttons */
+.about__social-media-icons {
+    display: flex;
+     gap: 0.5rem; /* Adjust the gap as needed */
+    flex-wrap: wrap;
+}
+
+.about__social-media-icons h4 {
+    color: var(--color-white);
+}
+
+.about__social-media-icons button {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;;
+    width: 100px;
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    align-items: center;
+    display: flex;
+    gap: 0.5rem; /* Adds space between icon and text */
+}
+
+/* Add hover effect for buttons */
+.about__social-media-icons button:hover {
+    background: linear-gradient(transparent, var(--color-primary), transparent);
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
 
 /* =====================    MEDIA QUERIES (MEDIUM DEVICES) =================*/
 @media screen and (max-width: 1024px) {
@@ -106,3 +140,13 @@
     margin: 1.5rem 0;
    }
 }
+
+.about__social-media-icons {
+    gap: 0.5rem;
+     /* Reduce gap for smaller screens */
+ }
+
+ .about__social-media-icons button {
+    padding: 0.6rem 1rem; /* Adjust button padding on small devices */
+    font-size: 0.9rem; /* Reduce font size slightly */
+ }
