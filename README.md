@@ -1,7 +1,3 @@
-Here’s a professional script you can use for the `README.md` of your portfolio website:
-
----
-
 # M. Adib Aulia Nurkhafif - Portfolio Website
 
 Welcome to my personal portfolio website! This project showcases my skills, experiences, and projects as a **Front-End Developer**, **UI/UX Enthusiast**, and **Mobile Developer**. Designed with a focus on clean, modern aesthetics and user experience, this site serves as both a professional presentation of my work and a demonstration of the skills I’ve acquired during my academic and professional journey.
