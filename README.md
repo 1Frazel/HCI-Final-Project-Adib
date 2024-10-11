@@ -24,8 +24,8 @@ Open my portfolio websites here!
 ## Projects Highlighted
 
 - **Web Portfolio**: This site itself, showcasing my proficiency in front-end web development and design.
-- **Insomnomnomniac**: A game development project demonstrating creativity and problem-solving in interactive design.
-- **Dark Whisperer**: A UI/UX design project with a focus on user-centered design principles.
+- **Insomnomnomniac**: A game development project demonstrating creativity and problem-solving in interactive design with JavaScript.
+- **Dark Whisperer**: A game design project with a focus on atmospheric game centered around stealth mechanics and immersive storytelling.
 - **Recipeez**: A mobile development project that showcases the integration of real-world APIs and responsive app design.
 - **Kompas Re-Design**: A comprehensive redesign of a popular news website to improve its usability and aesthetics.
 - **RAISO Android App**: A mobile application development project that highlights my Android development skills.
