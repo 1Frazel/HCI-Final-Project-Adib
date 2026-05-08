@@ -3,7 +3,7 @@ import './creation.css'
 import myPortfolio from '../../assets/B INDO PORTO MUHAMMAD AULIA NURKHAFIF_3.pdf'
 
 
-import buku1 from '../../assets/HOW TO BASIC MTCNA 100% FIX.pdf'
+import buku1 from '../../assets/HOW TO BASIC MTCNA 100 FIX.pdf'
 import buku2 from '../../assets/HOW TO BASIC-MTCRE 100_ FIX.pdf'
 import buku3 from '../../assets/HOW TO BASIC CCNA ENTERPRISE.pdf'
 import buku4 from '../../assets/FORBIDDEN REDHAT.pdf'
