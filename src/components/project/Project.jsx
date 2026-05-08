@@ -8,7 +8,7 @@ import IMG4 from '../../assets/Kompas Re-Design.png';
 import IMG5 from '../../assets/RAISO.png';
 import IMG6 from '../../assets/Recipeez.png';
 
-import { Navigation, Pagination } from 'swiper';
+import { Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';

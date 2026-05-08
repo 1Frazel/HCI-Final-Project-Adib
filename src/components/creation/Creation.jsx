@@ -10,7 +10,7 @@ import buku4 from '../../assets/FORBIDDEN REDHAT.pdf'
 import buku5 from '../../assets/NETWORK FUNDAMENTAL E-MODUL.pdf'
 import buku6 from '../../assets/Subnetting Modul.pdf'
 
-import { Navigation, Pagination } from 'swiper'
+import { Navigation, Pagination } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 import 'swiper/css'
