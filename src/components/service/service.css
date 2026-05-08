@@ -31,9 +31,29 @@
     row-gap: 1rem;
 }
 
-.service__detail h4{
-    text-align: center;
+.service__list {
+    margin: 0;
+    padding-left: 0;
+    display: grid;
+    gap: 0.9rem;
+    list-style: none;
+}
 
+.service__item {
+    display: flex;
+    gap: 0.6rem;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.service__detail-icon {
+    margin-top: 0.3rem;
+    color: var(--color-primary);
+    flex-shrink: 0;
+}
+
+.service__item span {
+    line-height: 1.6rem;
 }
 
 /* =====================    MEDIA QUERIES (MEDIUM DEVICES) =================*/

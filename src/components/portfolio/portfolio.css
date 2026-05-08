@@ -13,6 +13,7 @@
 .portfolio__container {
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .portfolio__item {
@@ -23,6 +24,7 @@
   
 .portfolio__item-image {
   width: 100%;
+  position: relative;
 }
 
   .portfolio__desc {
@@ -31,9 +33,18 @@
     padding: 3rem;
     border-radius: 1.5rem;
   }
-  
-  .portfolio__title {
+
+  .portfolio__job-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
     margin-bottom: 1rem;
+  }
+  
+  .portfolio__job {
+    margin-bottom: 1rem;
+    color: var(--color-primary);
+    font-weight: 500;
   }
   
 .portfolio__info {

@@ -14,6 +14,7 @@
 .project__container {
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .project__item {
@@ -24,6 +25,7 @@
     
 .project__item-image {
     width: 100%;
+    position: relative;
 }
 
     .project__detail {

@@ -24,10 +24,24 @@
     color: var(--color-primary);
 }
 
+.certificates__year {
+    grid-column: 1 / -1;
+    margin: 1rem 0 0.75rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-primary);
+}
+
+.certificates__year:first-child {
+    margin-top: 0;
+}
+
 .certificates__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
+    column-gap: 2rem;
+    row-gap: 1.25rem;
 }
 
 .certificates__detail {

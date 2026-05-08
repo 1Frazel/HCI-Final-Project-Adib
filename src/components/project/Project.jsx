@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './project.css';
+import SwiperNav from '../swiper/SwiperNav';
 
 import IMG1 from '../../assets/Web Portfolio.png';
 import IMG2 from '../../assets/Insomnomnomnia.png';
@@ -8,11 +9,10 @@ import IMG4 from '../../assets/Kompas Re-Design.png';
 import IMG5 from '../../assets/RAISO.png';
 import IMG6 from '../../assets/Recipeez.png';
 
-import { Navigation, Pagination } from 'swiper/modules';
+import { Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
-import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 const data = [
@@ -56,6 +56,8 @@ const data = [
 ];
 
 function Project() {
+  const [swiperInstance, setSwiperInstance] = useState(null);
+
   return (
     <section id='project'>
       <h5>What I've Done</h5>
@@ -68,9 +70,14 @@ function Project() {
         pagination={{
           clickable: true
         }}
-        navigation={true}
-        modules={[Pagination, Navigation]}
+        onSwiper={setSwiperInstance}
+        modules={[Pagination]}
         className="container project__container">
+        <SwiperNav
+          onPrev={() => swiperInstance?.slidePrev()}
+          onNext={() => swiperInstance?.slideNext()}
+          slot="container-start"
+        />
         {
           data.map(({ image, title, skills, desc, button }, index) => {
             return (

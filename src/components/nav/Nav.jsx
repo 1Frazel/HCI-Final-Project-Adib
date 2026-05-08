@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import './nav.css';
 import { AiOutlineHome, AiOutlineUnorderedList } from 'react-icons/ai';
 import { BiUser, BiPhoneCall } from 'react-icons/bi';
@@ -10,7 +10,7 @@ import { BsPencilSquare } from "react-icons/bs";
 
 function Nav() {
   const [activeNav, setActiveNav] = useState('#');
-  const [sectionPositions, setSectionPositions] = useState({});
+  const sectionPositionsRef = useRef({});
 
   useEffect(() => {
     function updateSectionPositions() {
@@ -25,7 +25,7 @@ function Nav() {
       const creation = document.querySelector('#creation');
       const contact = document.querySelector('#contact');
 
-      setSectionPositions({
+      sectionPositionsRef.current = {
         home: home ? home.offsetTop : 0,
         about: about ? about.offsetTop : 0,
         experience: experience ? experience.offsetTop : 0,
@@ -35,11 +35,12 @@ function Nav() {
         project: project ? project.offsetTop : 0,
         creation: creation ? creation.offsetTop : 0,
         contact: contact ? contact.offsetTop : 0,
-      });
+      };
     }
 
     function handleScroll() {
       const scrollPosition = window.scrollY;
+      const sectionPositions = sectionPositionsRef.current;
 
       // Check and update based on scroll position
       if (scrollPosition < sectionPositions.about - 100) {
@@ -74,7 +75,7 @@ function Nav() {
       window.removeEventListener('scroll', handleScroll);
       window.removeEventListener('resize', updateSectionPositions);
     };
-  }, [sectionPositions]); // Add sectionPositions as a dependency
+  }, []);
 
   return (
     <nav>

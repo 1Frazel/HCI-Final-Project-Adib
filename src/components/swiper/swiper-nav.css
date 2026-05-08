@@ -1,0 +1,35 @@
+.swiper-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--swiper-nav-height, clamp(180px, 34vw, 320px));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.swiper-nav__button {
+  pointer-events: auto;
+  background: #ffffff;
+  border: none;
+  color: var(--color-primary);
+  font-size: 2rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: var(--transition);
+  padding: 0;
+}
+
+.swiper-nav__button:hover {
+  color: var(--color-primary-variant);
+  transform: scale(1.05);
+}
