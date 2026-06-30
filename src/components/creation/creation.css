@@ -22,6 +22,7 @@
 .creation__container {
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .creation__item {
@@ -32,6 +33,7 @@
     
 .creation__item-image {
     width: 100%;
+    position: relative;
 }
 
     .creation__detail {

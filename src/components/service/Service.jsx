@@ -1,55 +1,70 @@
 import React from 'react'
 import './service.css'
+import { FaRegCheckCircle } from "react-icons/fa";
 
 const Service = () => {
   return (
     <section id='service'>
-      <h5>Things That I Will Do</h5>
+      <h5>Things That I will do</h5>
       <h2>Services</h2>
 
         <div className="container service__container">
           <div className="service__networking">
-            <h3>Networking Service</h3>
+            <h3>Networking Services</h3>
             <div className="service__content">
               <article className='service__detail'>
-                <div>
-                  <h4>Network design and configuration using Cisco, MikroTik, Fortinet, Ruckus, Ubiquiti, and other devices.</h4>
-                </div>
-                <br />
-                <div>
-                  <h4>Installation and maintenance of network devices.</h4>
-                </div>
-                <br />
-                <div>
-                  <h4>Network performance and security improvement.</h4>
-                </div>
-                <br />
-                <div>
-                  <h4>Network troubleshooting.</h4>
-                </div>
+                <ul className='service__list'>
+                  <li className='service__item'>
+                    <FaRegCheckCircle className='service__detail-icon'/>
+                    <span>Network design and configuration using Cisco, MikroTik, Fortinet, Ruckus, Ubiquiti, and other devices.</span>
+                  </li>
+                  <li className='service__item'>
+                    <FaRegCheckCircle  className='service__detail-icon'/>
+                    <span>Installation and maintenance of network devices.</span>
+                  </li>
+                  <li className='service__item'>
+                    <FaRegCheckCircle className='service__detail-icon'/>
+                    <span>Network performance and security improvement.</span>
+                  </li>
+                  <li className='service__item'>
+                    <FaRegCheckCircle  className='service__detail-icon'/>
+                    <span>Network troubleshooting.</span>
+                  </li>
+                </ul>
               </article>
             </div>
           </div>
 
           <div className="service__programming">
-            <h3>Front End/Mobile Dev Service</h3>
+            <h3>Front End & UI/UX Services</h3>
             <div className="service__content">
               <article className='service__detail'>
-              <div>
-                  <h4>Development of application UI design and UX research.</h4>
-                </div>
-                <br />
-                <div>
-                  <h4>Front End Website design development using framework.</h4>
-                </div>
-                <br />
-                <div>
-                  <h4>Android-based mobile application development.</h4>
-                </div>
-                <br />
-                <div>
-                  <h4>Game design development</h4>
-                </div>
+                <ul className='service__list'>
+                  <li className='service__item'>
+                    <FaRegCheckCircle className='service__detail-icon'/>
+                    <span>Responsive front end development with TypeScript and modern frameworks (Vite/NextJS).</span>
+                  </li>
+                  <li className='service__item'>
+                    <FaRegCheckCircle className='service__detail-icon'/>
+                    <span>UI design, wireframing, and prototyping in Figma.</span>
+                  </li>
+                  <li className='service__item'>
+                    <FaRegCheckCircle className='service__detail-icon'/>
+                    <span>Performance optimization for fast, smooth interfaces.</span>
+                  </li>
+                  <li className='service__item'>
+                    <FaRegCheckCircle className='service__detail-icon'/>
+                    <span>State management and scalable component architecture.</span>
+                  </li>
+                  <li className='service__item'>
+                    <FaRegCheckCircle className='service__detail-icon'/>
+                    <span>Basic UX research through interviews and feedback.</span>
+                  </li>
+                  <li className='service__item'>
+                    <FaRegCheckCircle className='service__detail-icon'/>
+                    <span>Clean delivery workflow using SDLC and GitHub.</span>
+                  </li>
+                </ul>
               </article>
             </div>
           </div>

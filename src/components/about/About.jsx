@@ -28,18 +28,23 @@ function About() {
             <article className='about__card'>
               <BsAward className='about__icon'/>
               <h5>Professional Experience</h5>
-              <h4>1 Year Working</h4>
+              <br />
+              <h4>1 Year Working in Network Engineering</h4>
+              <br />
+              <h4>1 Year Working in Front End Development</h4>
             </article>
 
             <article className='about__card'>
               <TbCertificate className='about__icon'/>
               <h5>Certifications</h5>
+              <br />
               <h4>11 International Certificates</h4>
             </article>
 
             <article className='about__card'>
               <IoMdArchive className='about__icon'/>
               <h5>Projects</h5>
+              <br />
               <h4>2 GameDev Projects</h4>
               <br />
               <h4>2 MobileDev Projects</h4>
@@ -51,13 +56,16 @@ function About() {
           </div>
           <p>
             Hello! Introducing my name is M. Adib Aulia Nurkhafif, usually called Adib! 
-            I'm a 5th semester BINUS student, studying UI/UX, Front End and Mobile Programming.
+            I'm a undergraduate student from Bina Nusantara University Computer Science Major, studying UI/UX and Front End Development.
             <br />
             <br />
-            I made several projects during college that are related to the things I study, at the same time I am looking for an opportunity for an internship!
+            I made several projects during college that are related to the things I study, at the same time I am looking for an opportunity for an internship in UI/UX or Front End Development employment!
             <br />
             <br />
-            Before studying, I also had experience working as a Network Engineer for 1 year and got several certifications in that field, but now I'm trying new opportunities!
+            Before studying at college, I also had experience working as a Network Engineer for 1 year and got several certifications in that field, but now I'm trying new opportunities!
+            <br />
+            <br />
+            Then at college, I had the opportunity to learn more about Front End Development during my 1 year internship at a company.
           </p>
           <div className='about__social-media'>
             <h3>Checkout My Social Media!</h3>

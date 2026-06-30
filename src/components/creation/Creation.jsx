@@ -1,20 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './creation.css'
+import SwiperNav from '../swiper/SwiperNav'
 import myPortfolio from '../../assets/B INDO PORTO MUHAMMAD AULIA NURKHAFIF_3.pdf'
 
 
-import buku1 from '../../assets/HOW TO BASIC MTCNA 100% FIX.pdf'
+import buku1 from '../../assets/HOW TO BASIC MTCNA 100 FIX.pdf'
 import buku2 from '../../assets/HOW TO BASIC-MTCRE 100_ FIX.pdf'
 import buku3 from '../../assets/HOW TO BASIC CCNA ENTERPRISE.pdf'
 import buku4 from '../../assets/FORBIDDEN REDHAT.pdf'
 import buku5 from '../../assets/NETWORK FUNDAMENTAL E-MODUL.pdf'
 import buku6 from '../../assets/Subnetting Modul.pdf'
 
-import { Navigation, Pagination } from 'swiper'
+import { Pagination } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 import 'swiper/css'
-import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 
 const data = [
@@ -46,6 +46,8 @@ const data = [
 ]
 
 function creation()  {
+    const [swiperInstance, setSwiperInstance] = useState(null)
+
     return (
       <section id='creation'>
         <h5>What I've Wrote</h5>
@@ -62,9 +64,14 @@ function creation()  {
         pagination={{
           clickable:true
         }}
-        navigation={true}
-        modules={[Pagination, Navigation]}
+        onSwiper={setSwiperInstance}
+        modules={[Pagination]}
         className="container creation__container">
+          <SwiperNav
+            onPrev={() => swiperInstance?.slidePrev()}
+            onNext={() => swiperInstance?.slideNext()}
+            slot="container-start"
+          />
           {
             data.map(({image, title, buku, desc}, index) => {
               return(
