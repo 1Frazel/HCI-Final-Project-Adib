@@ -8,6 +8,7 @@ import IMG3 from '../../assets/Dark Whisperer.png';
 import IMG4 from '../../assets/Kompas Re-Design.png';
 import IMG5 from '../../assets/RAISO.png';
 import IMG6 from '../../assets/Recipeez.png';
+import IMG7 from '../../assets/Resumeez.png';
 
 import { Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -51,7 +52,15 @@ const data = [
     image: IMG6,
     title: 'Recipeez',
     skills: 'Skills used: Java, UI/UX Design',
-    desc: 'A meal planning and recipe-finding app that allows users to input available ingredients and generate recipe suggestions. The app integrates a user-friendly interface with essential Java features to provide an educational experience in real-world API usage.' 
+    desc: 'A meal planning and recipe-finding app that allows users to input available ingredients and generate recipe suggestions. The app integrates a user-friendly interface with essential Java features to provide an educational experience in real-world API usage.',
+    button: <a href="https://github.com/1Frazel/Recipeez/releases/tag/v0.0.1-alpha" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Download the app!</a>
+  },
+  {
+    image: IMG7,
+    title: 'Resumeez',
+    skills: 'Skills used: UI/UX Design',
+    desc: 'A modern resume builder app that allows users to create professional resumes with ease. The app features a clean, intuitive interface and provides various templates to choose from.',
+    button: <a href="https://portfolio-thesis.firebaseapp.com/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Try the app!</a>
   }
 ];
 

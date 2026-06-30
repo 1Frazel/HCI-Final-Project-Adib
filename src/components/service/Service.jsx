@@ -5,12 +5,12 @@ import { FaRegCheckCircle } from "react-icons/fa";
 const Service = () => {
   return (
     <section id='service'>
-      <h5>Things That I Will Do</h5>
+      <h5>Things That I will do</h5>
       <h2>Services</h2>
 
         <div className="container service__container">
           <div className="service__networking">
-            <h3>Networking Service</h3>
+            <h3>Networking Services</h3>
             <div className="service__content">
               <article className='service__detail'>
                 <ul className='service__list'>
@@ -36,7 +36,7 @@ const Service = () => {
           </div>
 
           <div className="service__programming">
-            <h3>Front End & UI/UX Service</h3>
+            <h3>Front End & UI/UX Services</h3>
             <div className="service__content">
               <article className='service__detail'>
                 <ul className='service__list'>
