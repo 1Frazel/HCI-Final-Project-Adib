@@ -2,6 +2,6 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig(({ mode }) => ({
-  base: mode === 'production' ? '/HCI-Final-Project-Adib/' : '/',
+  base: mode === 'production' ? '/Web-Portfolio-Adib-Aulia/' : '/',
   plugins: [react()],
 }))
